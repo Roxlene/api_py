@@ -1,9 +1,13 @@
 #Importar Librerias Instaladas
+#py pip -m install virtualenv
+#py -m virtualenv python_modules
 #pip install flask
 #pip install flask-sqlalchemy   -----Para Conectar a una BD SQL
 #pip install flack-marshmallow  -----Definir Esquema con la BD
 #pip install marshmallow-sqlalchemy
 #pip install pymysql            ------Para Conectar a MySQL Driver MySQL
+#python app/categoria.py        ------Ejecutar programa
+
 
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
